@@ -1,2 +1,2 @@
 #!/bin/bash	
-uniq -c | tr ' ' "\n"
+sort list | uniq -c | tr ' ' '\n'
